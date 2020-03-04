@@ -27,7 +27,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'PROD-LZ-SharedServices-VDC(1409fbca-adb5-494b-af14-9f3197615f04)'
+    azureSubscription: '090040ed-5b39-4616-a034-9baa1f507c17'
     appType: 'functionApp'
     WebAppName: 'fortivmssqrce22h3funcapp'
     packageForLinux: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
